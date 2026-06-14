@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53CCBBD32FDF15CE00B866A9 /* Swatches Debug Icon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBBD22FDF15CE00B866A9 /* Swatches Debug Icon.icon */; };
 		53EFB7B12FDD41C500C6194B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7A52FDD41C500C6194B /* Colors.swift */; };
 		53EFB7B22FDD41C500C6194B /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7A62FDD41C500C6194B /* HapticFeedback.swift */; };
 		53EFB7B32FDD41C500C6194B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7A82FDD41C500C6194B /* ContentView.swift */; };
@@ -40,7 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53EFB74F2FDD377200C6194B /* Swatches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swatches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CCBBD22FDF15CE00B866A9 /* Swatches Debug Icon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "Swatches Debug Icon.icon"; sourceTree = "<group>"; };
+		53EFB74F2FDD377200C6194B /* Swatches - Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swatches - Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB75C2FDD377400C6194B /* SwatchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwatchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB7662FDD377400C6194B /* SwatchesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwatchesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB7A52FDD41C500C6194B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -109,7 +111,7 @@
 		53EFB7502FDD377200C6194B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53EFB74F2FDD377200C6194B /* Swatches.app */,
+				53EFB74F2FDD377200C6194B /* Swatches - Debug.app */,
 				53EFB75C2FDD377400C6194B /* SwatchesTests.xctest */,
 				53EFB7662FDD377400C6194B /* SwatchesUITests.xctest */,
 			);
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				53EFB7BA2FDD44FE00C6194B /* Swatches Icon.icon */,
+				53CCBBD22FDF15CE00B866A9 /* Swatches Debug Icon.icon */,
 				53EFB7BE2FDD470700C6194B /* Localizable.xcstrings */,
 				53EFB7BC2FDD457D00C6194B /* Assets.xcassets */,
 			);
@@ -195,7 +198,7 @@
 			packageProductDependencies = (
 			);
 			productName = Swatches;
-			productReference = 53EFB74F2FDD377200C6194B /* Swatches.app */;
+			productReference = 53EFB74F2FDD377200C6194B /* Swatches - Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 		53EFB75B2FDD377400C6194B /* SwatchesTests */ = {
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53EFB7BD2FDD457D00C6194B /* Assets.xcassets in Resources */,
+				53CCBBD32FDF15CE00B866A9 /* Swatches Debug Icon.icon in Resources */,
 				53EFB7BB2FDD44FE00C6194B /* Swatches Icon.icon in Resources */,
 				53EFB7BF2FDD470700C6194B /* Localizable.xcstrings in Resources */,
 			);
@@ -487,7 +491,7 @@
 		53EFB7712FDD377400C6194B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "Swatches Icon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Swatches Debug Icon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -505,7 +509,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ziplyne.Swatches.debug;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME) - Debug";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -523,7 +527,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ABDT4FRVTA;
+				DEVELOPMENT_TEAM = Q4JH4MFFKH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
