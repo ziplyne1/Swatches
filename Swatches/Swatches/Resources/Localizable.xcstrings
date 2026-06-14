@@ -1,0 +1,48 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "About" : {
+
+    },
+    "Colors" : {
+      "comment" : "Name of the “Colors” swatch."
+    },
+    "Developed by ziplyne" : {
+
+    },
+    "Email" : {
+
+    },
+    "Get in touch" : {
+
+    },
+    "GitHub" : {
+
+    },
+    "Haptic Feedback" : {
+
+    },
+    "Swatches" : {
+      "comment" : "Name of the app. Should probably always be 'Swatches'."
+    },
+    "Swatches is an app built for devs to quickly preview various SwiftUI features. If there’s a swatch you’d like to see added, feel free to reach out. (Or, if you’re feeling adventurous, submit a PR!)" : {
+
+    },
+    "The available haptic patterns for the `.sensoryFeedback` modifier." : {
+
+    },
+    "The standard SwiftUI colors." : {
+
+    },
+    "Toggle Appearance" : {
+
+    },
+    "Toggle Glass" : {
+
+    },
+    "Website" : {
+
+    }
+  },
+  "version" : "1.2"
+}
