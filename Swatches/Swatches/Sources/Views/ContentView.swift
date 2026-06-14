@@ -36,8 +36,7 @@ struct ContentView: View {
             }
             .navigationTitle("Swatches")
             .navigationDestination(for: Swatch.self) { swatch in
-                swatch.view
-                    .swatchModifier(for: swatch)
+                SwatchView(for: swatch)
             }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
