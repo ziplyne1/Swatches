@@ -21,6 +21,7 @@ import SwiftUI
 struct Swatch: Identifiable {
     var id: String
     var name: LocalizedStringKey
+    var author: String
     var description: LocalizedStringKey
     var icon: String
     var color: Color
@@ -29,6 +30,7 @@ struct Swatch: Identifiable {
     init<V: View>(
         id: String,
         name: LocalizedStringKey,
+        author: String,
         description: LocalizedStringKey,
         icon: String,
         color: Color,
@@ -36,6 +38,7 @@ struct Swatch: Identifiable {
     ) {
         self.id = id
         self.name = name
+        self.author = author
         self.description = description
         self.icon = icon
         self.color = color

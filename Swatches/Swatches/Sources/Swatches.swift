@@ -12,6 +12,7 @@ let swatches: [Swatch] = [
     Swatch(
         id: "colors",
         name: "Colors",
+        author: "ziplyne",
         description: "The standard SwiftUI colors.",
         icon: "paintpalette.fill",
         color: .green,
@@ -20,6 +21,7 @@ let swatches: [Swatch] = [
     Swatch(
         id: "haptic feedback",
         name: "Haptic Feedback",
+        author: "ziplyne",
         description: "The available haptic patterns for the `.sensoryFeedback` modifier.",
         icon: "iphone.radiowaves.left.and.right",
         color: .blue,
