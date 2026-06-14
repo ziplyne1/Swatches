@@ -37,7 +37,8 @@ struct Colors: View {
             .padding()
         }
         .toolbar {
-            ToolbarItem {
+            ToolbarItemGroup(placement: .bottomBar) {
+                Spacer()
                 Button(
                     "Toggle Glass",
                     systemImage: (showGlass) ? "eyeglasses" : "eyeglasses.slash"
