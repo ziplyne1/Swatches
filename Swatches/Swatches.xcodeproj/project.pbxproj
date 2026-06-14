@@ -510,7 +510,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zipindustries.swatches.debug;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziplyne.swatchestool.debug;
 				PRODUCT_NAME = "Swatches: a SwiftUI Dev Tool";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -544,7 +544,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zipindustries.swatches;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziplyne.swatchestool;
 				PRODUCT_NAME = "Swatches: a SwiftUI Dev Tool";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
