@@ -1,6 +1,7 @@
-# Xcode user data (always ignore)
+# Xcode user data
 xcuserdata/
 *.xcuserstate
+DeveloperSettings.xcconfig
 
 # Build artifacts
 DerivedData/
@@ -13,22 +14,3 @@ DerivedData/
 
 # macOS system files
 .DS_Store
-
-
-# --- Optional (uncomment if needed) ---
-
-# Swift Package Manager
-# Ignore downloaded dependencies (only if you want to re-resolve on every clone)
-# .build/
-# Packages/
-
-# Keep this COMMITTED for reproducible builds (recommended):
-# Package.resolved
-
-# CocoaPods
-# Uncomment if you do NOT want to commit Pods (generally not recommended)
-# Pods/
-
-# Carthage
-# Uncomment if using Carthage and want to ignore built dependencies
-# Carthage/Build/
