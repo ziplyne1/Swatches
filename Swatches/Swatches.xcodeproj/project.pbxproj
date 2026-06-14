@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		53CCBBD22FDF15CE00B866A9 /* Swatches Debug Icon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "Swatches Debug Icon.icon"; sourceTree = "<group>"; };
 		53CCBBD42FDF180B00B866A9 /* SwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwatchView.swift; sourceTree = "<group>"; };
-		53EFB74F2FDD377200C6194B /* Swatches: a SwiftUI Dev Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swatches: a SwiftUI Dev Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EFB74F2FDD377200C6194B /* Swatches: SwiftUI Dev Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swatches: SwiftUI Dev Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB75C2FDD377400C6194B /* SwatchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwatchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB7662FDD377400C6194B /* SwatchesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwatchesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB7A52FDD41C500C6194B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		53EFB7502FDD377200C6194B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53EFB74F2FDD377200C6194B /* Swatches: a SwiftUI Dev Tool.app */,
+				53EFB74F2FDD377200C6194B /* Swatches: SwiftUI Dev Tool.app */,
 				53EFB75C2FDD377400C6194B /* SwatchesTests.xctest */,
 				53EFB7662FDD377400C6194B /* SwatchesUITests.xctest */,
 			);
@@ -198,7 +198,7 @@
 			packageProductDependencies = (
 			);
 			productName = Swatches;
-			productReference = 53EFB74F2FDD377200C6194B /* Swatches: a SwiftUI Dev Tool.app */;
+			productReference = 53EFB74F2FDD377200C6194B /* Swatches: SwiftUI Dev Tool.app */;
 			productType = "com.apple.product-type.application";
 		};
 		53EFB75B2FDD377400C6194B /* SwatchesTests */ = {
@@ -511,7 +511,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ziplyne.swatchestool.debug;
-				PRODUCT_NAME = "Swatches: a SwiftUI Dev Tool";
+				PRODUCT_NAME = "Swatches: SwiftUI Dev Tool";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -545,7 +545,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ziplyne.swatchestool;
-				PRODUCT_NAME = "Swatches: a SwiftUI Dev Tool";
+				PRODUCT_NAME = "Swatches: SwiftUI Dev Tool";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
