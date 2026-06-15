@@ -48,7 +48,7 @@
 		53E502B72FDFBD5A00D758BC /* Swatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swatch.swift; sourceTree = "<group>"; };
 		53E502B82FDFBD5A00D758BC /* Swatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swatches.swift; sourceTree = "<group>"; };
 		53E502B92FDFBD5A00D758BC /* UrlService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlService.swift; sourceTree = "<group>"; };
-		53EFB74F2FDD377200C6194B /* Swatches: SwiftUI Dev Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swatches: SwiftUI Dev Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EFB74F2FDD377200C6194B /* Swatches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swatches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB75C2FDD377400C6194B /* SwatchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwatchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB7662FDD377400C6194B /* SwatchesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwatchesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB7A52FDD41C500C6194B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		53EFB7502FDD377200C6194B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53EFB74F2FDD377200C6194B /* Swatches: SwiftUI Dev Tool.app */,
+				53EFB74F2FDD377200C6194B /* Swatches.app */,
 				53EFB75C2FDD377400C6194B /* SwatchesTests.xctest */,
 				53EFB7662FDD377400C6194B /* SwatchesUITests.xctest */,
 			);
@@ -201,7 +201,7 @@
 			packageProductDependencies = (
 			);
 			productName = Swatches;
-			productReference = 53EFB74F2FDD377200C6194B /* Swatches: SwiftUI Dev Tool.app */;
+			productReference = 53EFB74F2FDD377200C6194B /* Swatches.app */;
 			productType = "com.apple.product-type.application";
 		};
 		53EFB75B2FDD377400C6194B /* SwatchesTests */ = {
@@ -518,7 +518,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_MODULE_NAME = Swatches;
-				PRODUCT_NAME = "Swatches: SwiftUI Dev Tool";
+				PRODUCT_NAME = Swatches;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -551,7 +551,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_MODULE_NAME = Swatches;
-				PRODUCT_NAME = "Swatches: SwiftUI Dev Tool";
+				PRODUCT_NAME = Swatches;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
