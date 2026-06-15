@@ -10,18 +10,18 @@
 		53CCBBD32FDF15CE00B866A9 /* Swatches Debug Icon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBBD22FDF15CE00B866A9 /* Swatches Debug Icon.icon */; };
 		53CCBBD52FDF180B00B866A9 /* SwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCBBD42FDF180B00B866A9 /* SwatchView.swift */; };
 		53CCBBE52FDF440E00B866A9 /* DeveloperSettings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 53CCBBE42FDF440E00B866A9 /* DeveloperSettings.xcconfig */; };
+		53E502BB2FDFBD5A00D758BC /* Swatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E502B82FDFBD5A00D758BC /* Swatches.swift */; };
+		53E502BC2FDFBD5A00D758BC /* UrlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E502B92FDFBD5A00D758BC /* UrlService.swift */; };
+		53E502BD2FDFBD5A00D758BC /* Swatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E502B72FDFBD5A00D758BC /* Swatch.swift */; };
 		53EFB7B12FDD41C500C6194B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7A52FDD41C500C6194B /* Colors.swift */; };
 		53EFB7B22FDD41C500C6194B /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7A62FDD41C500C6194B /* HapticFeedback.swift */; };
 		53EFB7B32FDD41C500C6194B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7A82FDD41C500C6194B /* ContentView.swift */; };
 		53EFB7B42FDD41C500C6194B /* Swatch+link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7A92FDD41C500C6194B /* Swatch+link.swift */; };
-		53EFB7B52FDD41C500C6194B /* Swatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7AB2FDD41C500C6194B /* Swatch.swift */; };
-		53EFB7B62FDD41C500C6194B /* Swatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7AC2FDD41C500C6194B /* Swatches.swift */; };
 		53EFB7B72FDD41C500C6194B /* SwatchesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7AD2FDD41C500C6194B /* SwatchesApp.swift */; };
 		53EFB7BB2FDD44FE00C6194B /* Swatches Icon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 53EFB7BA2FDD44FE00C6194B /* Swatches Icon.icon */; };
 		53EFB7BD2FDD457D00C6194B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EFB7BC2FDD457D00C6194B /* Assets.xcassets */; };
 		53EFB7BF2FDD470700C6194B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 53EFB7BE2FDD470700C6194B /* Localizable.xcstrings */; };
 		53EFB7C12FDDC29A00C6194B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7C02FDDC29A00C6194B /* AboutView.swift */; };
-		53EFB7CE2FDE07A900C6194B /* UrlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFB7CD2FDE07A900C6194B /* UrlService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +45,9 @@
 		53CCBBD22FDF15CE00B866A9 /* Swatches Debug Icon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "Swatches Debug Icon.icon"; sourceTree = "<group>"; };
 		53CCBBD42FDF180B00B866A9 /* SwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwatchView.swift; sourceTree = "<group>"; };
 		53CCBBE42FDF440E00B866A9 /* DeveloperSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DeveloperSettings.xcconfig; sourceTree = "<group>"; };
+		53E502B72FDFBD5A00D758BC /* Swatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swatch.swift; sourceTree = "<group>"; };
+		53E502B82FDFBD5A00D758BC /* Swatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swatches.swift; sourceTree = "<group>"; };
+		53E502B92FDFBD5A00D758BC /* UrlService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlService.swift; sourceTree = "<group>"; };
 		53EFB74F2FDD377200C6194B /* Swatches: SwiftUI Dev Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swatches: SwiftUI Dev Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB75C2FDD377400C6194B /* SwatchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwatchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EFB7662FDD377400C6194B /* SwatchesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwatchesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,14 +55,11 @@
 		53EFB7A62FDD41C500C6194B /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
 		53EFB7A82FDD41C500C6194B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53EFB7A92FDD41C500C6194B /* Swatch+link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swatch+link.swift"; sourceTree = "<group>"; };
-		53EFB7AB2FDD41C500C6194B /* Swatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swatch.swift; sourceTree = "<group>"; };
-		53EFB7AC2FDD41C500C6194B /* Swatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swatches.swift; sourceTree = "<group>"; };
 		53EFB7AD2FDD41C500C6194B /* SwatchesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwatchesApp.swift; sourceTree = "<group>"; };
 		53EFB7BA2FDD44FE00C6194B /* Swatches Icon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "Swatches Icon.icon"; sourceTree = "<group>"; };
 		53EFB7BC2FDD457D00C6194B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53EFB7BE2FDD470700C6194B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		53EFB7C02FDDC29A00C6194B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		53EFB7CD2FDE07A900C6194B /* UrlService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -100,6 +100,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53E502BA2FDFBD5A00D758BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53E502B72FDFBD5A00D758BC /* Swatch.swift */,
+				53E502B82FDFBD5A00D758BC /* Swatches.swift */,
+				53E502B92FDFBD5A00D758BC /* UrlService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		53EFB7462FDD377200C6194B = {
 			isa = PBXGroup;
 			children = (
@@ -157,10 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				53EFB7AD2FDD41C500C6194B /* SwatchesApp.swift */,
-				53EFB7AB2FDD41C500C6194B /* Swatch.swift */,
-				53EFB7AC2FDD41C500C6194B /* Swatches.swift */,
-				53EFB7CD2FDE07A900C6194B /* UrlService.swift */,
-				53EFB7C52FDDD63300C6194B /* Previews */,
+				53E502BA2FDFBD5A00D758BC /* Models */,
 				53EFB7AA2FDD41C500C6194B /* Views */,
 			);
 			path = Sources;
@@ -173,13 +180,6 @@
 				53EFB7AE2FDD41C500C6194B /* Sources */,
 			);
 			path = Swatches;
-			sourceTree = "<group>";
-		};
-		53EFB7C52FDDD63300C6194B /* Previews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Previews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,13 +330,13 @@
 			files = (
 				53EFB7C12FDDC29A00C6194B /* AboutView.swift in Sources */,
 				53EFB7B12FDD41C500C6194B /* Colors.swift in Sources */,
-				53EFB7CE2FDE07A900C6194B /* UrlService.swift in Sources */,
 				53EFB7B22FDD41C500C6194B /* HapticFeedback.swift in Sources */,
+				53E502BB2FDFBD5A00D758BC /* Swatches.swift in Sources */,
+				53E502BC2FDFBD5A00D758BC /* UrlService.swift in Sources */,
+				53E502BD2FDFBD5A00D758BC /* Swatch.swift in Sources */,
 				53EFB7B32FDD41C500C6194B /* ContentView.swift in Sources */,
 				53EFB7B42FDD41C500C6194B /* Swatch+link.swift in Sources */,
-				53EFB7B52FDD41C500C6194B /* Swatch.swift in Sources */,
 				53CCBBD52FDF180B00B866A9 /* SwatchView.swift in Sources */,
-				53EFB7B62FDD41C500C6194B /* Swatches.swift in Sources */,
 				53EFB7B72FDD41C500C6194B /* SwatchesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
